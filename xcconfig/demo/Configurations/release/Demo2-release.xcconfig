@@ -1,0 +1,15 @@
+//
+//  Demo2-release.xcconfig
+//  demo
+//
+//  Created by Ken on 2018/9/7.
+//  Copyright © 2018年 Ken. All rights reserved.
+//
+
+#include "../Pods/Target Support Files/Pods-demo2/Pods-demo2.release.xcconfig"
+
+DEMO_2 = 1
+
+RELEASE = 1
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) DEMO_2=$(DEMO_2) RELEASE=$(RELEASE)
