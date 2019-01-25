@@ -160,6 +160,18 @@
 		BE11275E214663A60068B3CE /* demo2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demo2-Info.plist"; sourceTree = "<group>"; };
 		BE11275F214663A60068B3CE /* demo3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demo3-Info.plist"; sourceTree = "<group>"; };
 		BE112760214663A60068B3CE /* demo1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demo1-Info.plist"; sourceTree = "<group>"; };
+		BE1C7EAF2149183D006E67B2 /* Pods-demo.prerelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-demo.prerelease.xcconfig"; path = "../Pods/Target Support Files/Pods-demo/Pods-demo.prerelease.xcconfig"; sourceTree = "<group>"; };
+		BE1C7EB02149183D006E67B2 /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-demo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-demo/Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		BE1C7EB12149183D006E67B2 /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-demo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-demo/Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
+		BE1C7EB521491851006E67B2 /* Pods-demo1.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-demo1.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-demo1/Pods-demo1.debug.xcconfig"; sourceTree = "<group>"; };
+		BE1C7EB621491852006E67B2 /* Pods-demo1.prerelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-demo1.prerelease.xcconfig"; path = "../Pods/Target Support Files/Pods-demo1/Pods-demo1.prerelease.xcconfig"; sourceTree = "<group>"; };
+		BE1C7EB721491852006E67B2 /* Pods-demo1.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-demo1.release.xcconfig"; path = "../Pods/Target Support Files/Pods-demo1/Pods-demo1.release.xcconfig"; sourceTree = "<group>"; };
+		BE1C7EB821491881006E67B2 /* Pods-demo2.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-demo2.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-demo2/Pods-demo2.debug.xcconfig"; sourceTree = "<group>"; };
+		BE1C7EB921491881006E67B2 /* Pods-demo2.prerelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-demo2.prerelease.xcconfig"; path = "../Pods/Target Support Files/Pods-demo2/Pods-demo2.prerelease.xcconfig"; sourceTree = "<group>"; };
+		BE1C7EBA21491881006E67B2 /* Pods-demo2.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-demo2.release.xcconfig"; path = "../Pods/Target Support Files/Pods-demo2/Pods-demo2.release.xcconfig"; sourceTree = "<group>"; };
+		BE1C7EBB2149188E006E67B2 /* Pods-demo3.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-demo3.release.xcconfig"; path = "../Pods/Target Support Files/Pods-demo3/Pods-demo3.release.xcconfig"; sourceTree = "<group>"; };
+		BE1C7EBC2149188E006E67B2 /* Pods-demo3.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-demo3.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-demo3/Pods-demo3.debug.xcconfig"; sourceTree = "<group>"; };
+		BE1C7EBD2149188E006E67B2 /* Pods-demo3.prerelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-demo3.prerelease.xcconfig"; path = "../Pods/Target Support Files/Pods-demo3/Pods-demo3.prerelease.xcconfig"; sourceTree = "<group>"; };
 		BE23620321425C0B009810D7 /* demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE23622221425C1B009810D7 /* demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE23624121425C78009810D7 /* demo3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo3.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +260,18 @@
 		0FDF36F0FD00A7043123BFB7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				BE1C7EB02149183D006E67B2 /* Pods-demo.debug.xcconfig */,
+				BE1C7EAF2149183D006E67B2 /* Pods-demo.prerelease.xcconfig */,
+				BE1C7EB12149183D006E67B2 /* Pods-demo.release.xcconfig */,
+				BE1C7EB521491851006E67B2 /* Pods-demo1.debug.xcconfig */,
+				BE1C7EB621491852006E67B2 /* Pods-demo1.prerelease.xcconfig */,
+				BE1C7EB721491852006E67B2 /* Pods-demo1.release.xcconfig */,
+				BE1C7EB821491881006E67B2 /* Pods-demo2.debug.xcconfig */,
+				BE1C7EB921491881006E67B2 /* Pods-demo2.prerelease.xcconfig */,
+				BE1C7EBA21491881006E67B2 /* Pods-demo2.release.xcconfig */,
+				BE1C7EBC2149188E006E67B2 /* Pods-demo3.debug.xcconfig */,
+				BE1C7EBD2149188E006E67B2 /* Pods-demo3.prerelease.xcconfig */,
+				BE1C7EBB2149188E006E67B2 /* Pods-demo3.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";

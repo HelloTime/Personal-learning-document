@@ -26,10 +26,6 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    NSLog(@"%@",[NSDate date]);
-    NSLog(@"%s",__DATE__);
-    NSLog(@"%s",__TIME__);
-    
     NSLog(@"%@",WebServiceURL);
     NSLog(@"%@",WeChatAppKey);
     NSLog(@"%@",SinaAppKey);
